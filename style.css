@@ -448,11 +448,14 @@ span {
     }
     
     .testimonials .wrapper{
+        display: block;
         grid-template-columns: repeat(1,1fr);
     }
     .contact form .input-box input {
         width: 100%;
     }
+
+   
     .footer{
         padding: 2rem 3%;
     }
@@ -492,6 +495,10 @@ span {
     }
     .home-content h1{
         font-size: 5rem;
+    }
+
+    .home-content p{
+        text-align: justify;
     }
     .home-content{
         order: 2;
